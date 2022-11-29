@@ -5,18 +5,26 @@
  The choice should be made based on the value of another variable called isMale.
 */
 
-/* function gender(isMale)  {
-    return(isMale ? "with beard": "no beard")}
-    console.log(gender(true));
-    console.log(gender(false));
-    console.log(gender(null)); */
+/* 
+let isMale = true;
+let myGender = isMale ? "male":"female";
+console.log(myGender);
+
+*/
 
 /*EX 2
  Write a piece of code for checking if, given two integers, the value of one of them is 8 or if their addition or subtraction is equal to 8.
 */
 
-/* let x = 8 - 
-twoIntegersAreEqualTo8 =   */
+/* 
+let varx = 5;
+let vary = 3;
+if((varx === 8) || (vary === 8) || (varx + vary === 8) || (varx - vary === 8)){
+    console.log("condition is true")
+} else {
+    console.log("condition is false")
+}
+*/
 
 /*EX 3
  Create a variable and assign to it the concatenation of two strings.
@@ -47,7 +55,7 @@ if (highestValues){
 
  or
 
- let x= 1;
+let x= 1;
 let y= 2;
 let z= 3;
 if (x>y && x>z)
@@ -101,29 +109,32 @@ console.log(averageIntegers)  */
  Write a piece of code for finding the longest of two given strings.
 */
 
-/* WRITE YOUR ANSWER HERE */
+/* let string3="aaa"
+let string4="a" 
+if (string3.length>string4.length){
+    console.log("3 is longer")
+} else {
+    console.log("4 is longer")
+}
+    */
 
 /*EX 7
  Write a piece of code for checking if a given value is a integer or not.
 */
 
-/* function fits(x, y) {
-    if (Number.isInteger(y / x)) {
-      return 'Fits!';
-    }
-    return 'Does NOT fit!';
-  }
-  
-  console.log(fits(10, 100));
-  console.log(fits(10, 101));   */
+/* 
+let maybeAnInterger = 5.5555;
+(maybeAnInterger % 1) === 0 ? (console.log("It's an integer")):(console.log("It is not an integar..."));
+*/
 
 /*EX 8
  Write a piece of code for calculating a certain percentage of a given number.
  (Ex.: the 20% of 400 is 80)
 */
 
-/* let x= 20 ;
-let y= 400; 
+/* 
+let x= 20 ;
+let percentage= 400; 
 let value = x * (y/100)
 
 console.log(value) */
@@ -134,7 +145,7 @@ console.log(value) */
 
 /* let number = 100;
 
-if (number % 2 ===0){
+if (number % 2 === 0){
     console.log("even")
 } else{
     console.log("odd")

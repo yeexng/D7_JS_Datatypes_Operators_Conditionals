@@ -54,17 +54,51 @@ console.log (x-12) */
 /*  let name1 = "john"
     let name2 = "John" 
     console.log(name1 === name2) 
-    name2 = "john"
-    console.log(name1 === name2)
-    /
+    console.log(name1 === (name2.toLowerCase())
+    */
 
 /* EXERCISE 8
  Create a variable named x, and assign to it a numeric value less than 10.
  Write the code to print the literal value of x (ex.: if x is 1, it should print "one", if x is 5 it should print "five" etc.).
 */
 
-/* let x = 9;
-console.log(x) */
+/* 
+
+console.log("\n")
+x = 1;
+if (x === 0){   
+    console.log("zero")}
+else if (x ===1 ) {
+    console.log("one")}
+else if (x === 2 ){
+    console.log("two")}
+else if (x === 3 ){
+    console.log("three")}
+else if (x === 4 ){
+    console.log("four")}
+else if (x === 5 ){
+    console.log("five")}
+else if (x === 6 ){
+    console.log("six")}
+else if (x === 7 ){
+    console.log("seven")}
+else if (x === 8 ){
+    console.log("eight")}
+else if (x === 9 ){
+    console.log("nine")}
+else if (x === 10 ){
+    console.log("ten")}
+
+    or
+
+let x1 = 5;
+let digits = new Array("zero","one","two","three","four","five","six","seven","eight","nine");
+if (x1 < digits.length){
+    console.log("You typed in", x1, ", this digit would be written as", digits[x1])
+} else{
+    console.log("I don't know this number.")
+}
+    */
 
 /* EXERCISE 9
  [Extra] Assign a value to a variable using a ternary operator (this topic has not been covered during lesson yet,
